@@ -14,7 +14,7 @@ const passowrdInput = document.getElementById('password').value.trim();
 let isValid = true;
 let messages = [];
 
-if (username.value.length < 3) {
+if (username.length < 3) {
     isValid = false;
     messages.push('Username must be at least 3 characters long');
 }
