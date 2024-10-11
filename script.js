@@ -24,7 +24,7 @@ if (!email.includes('@') || !email.includes('.')) {
     messages.push('Email must include both "@" and "." characters')
 }
 
-if(password.value.length < 8) {
+if(password.length < 8) {
     isValid = false;
     messages.push('Password must be at least 8 characters long');
 }
